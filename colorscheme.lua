@@ -1,9 +1,10 @@
 
 require("rose-pine").setup({
   transparent_background = true,
-  term_colors = false,
+  extend_background_behind_borders = true,
   styles = {
     italic = false,
+    transparency = true,
   },
   palette = {
     main = {
@@ -16,7 +17,7 @@ require("rose-pine").setup({
       iris = '#706a73',
       rose = '#d9b9b9',
       love = '#b77782',
-      base = '#111111',
+      base = '#030b16', --terminal background
       overlay = '#222222',
       highlight_low = '#000000',
       highlight_high = '#2b2b2b', --unsure
